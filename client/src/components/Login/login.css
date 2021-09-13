@@ -1,0 +1,21 @@
+.login-container {
+  background: linear-gradient(#fbfdff, #e3f4ff);
+  height: 100vh;
+}
+.login-inner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.login-button {
+  background: #caffbf;
+  border-radius: 10px;
+}

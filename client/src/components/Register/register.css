@@ -1,0 +1,21 @@
+.register-container {
+  background: linear-gradient(#fbfdff, #e3f4ff);
+  height: 100vh;
+}
+.register-inner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.register {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.button {
+  background: #caffbf;
+  border-radius: 10px;
+}
