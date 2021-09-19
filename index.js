@@ -43,7 +43,7 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(path.join(__dirname, "client/build", "index.html"));
   });
 }
-initial();
+#initial();
 app.listen(process.env.PORT || 8000, () =>
   console.log("Server is Up and running")
 );
